@@ -2,7 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppRpgEtec.Views.Personagens.ListagemView"
+             Shell.PresentationMode="Animated"
              Title="ListagemView">
+
+    
+	<Shell.TitleView>
+        <Button Command="{Binding NovoPersonagem}" Text="Novo" HorizontalOptions="End"></Button>
+    </Shell.TitleView>
+   
+    
     <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
         <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Personagens}" >
             <ListView.ItemTemplate>

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Services",
+    "\\ViewModels",
+    "\\ViewModels\\Personagens",
+    "\\Views",
+    "\\Views\\Personagens"
   ],
-  "SelectedNode": "\\AppShell.xaml.cs",
+  "SelectedNode": "\\AppShell.xaml",
   "PreviewInSolutionExplorer": false
 }

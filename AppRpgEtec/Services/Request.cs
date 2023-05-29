@@ -49,7 +49,7 @@ namespace AppRpgEtec.Services
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 return int.Parse(serialized);
             else
-                return 0;
+                throw new Exception(serialized);
         }
 
         public async Task<int> PutAsync<TResult>(string uri, TResult data, string token)

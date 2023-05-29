@@ -8,6 +8,9 @@
     <DefaultDevice>Pixel_2_API_31</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\Personagens\CadastroPersonagemView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Personagens\ListagemView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
